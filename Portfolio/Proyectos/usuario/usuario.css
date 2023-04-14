@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body{
+  background: linear-gradient(90deg, rgba(174,226,238,1) 0%, rgba(226,238,247,1) 47%, rgba(5,154,231,1) 100%); ;
+}
+
+
+.body {
+  background-color: #24dbd3;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  overflow: hidden;
+  margin: 50px;
+}
+
+.container {
+  border-radius: 40px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 100px;
+  margin: 50px 100px;
+}
+
+.title {
+  margin: 10px;
+}
+
+.subtitle {
+  display: inline-block;
+  margin: 10px 0 20px;
+  opacity: 0.8;
+}
+
+.header {
+  background-color: #90bfe4;
+  color: #0d0c4d;
+  padding: 30px 20px;
+}
+
+.header input {
+  background-color: rgba(23, 150, 247, 100);
+  border: 5px;
+  border-radius: 60px;
+  color: #29e9b3;
+  font-size: 14px;
+  padding: 15px 5px;
+  width: 100%; 
+}
+
+.header input:focus {
+  outline: none;
+}
+
+.user-list {
+  background-color: #add4f2;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.user-list li {
+  display: flex;
+  padding: 10px;
+}
+
+.user-list img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 80px;
+  width: 80px;
+}
+
+.user-list .user-info {
+  margin-left: 20px;
+}
+
+.user-list .user-info h4 {
+  margin: 0 0 10px;
+}
+
+.user-list .user-info p {
+  font-size: 12px;
+}
+
+.user-list li:not(:last-of-type) {
+  border-bottom: 3px solid #eee;
+}
+
+.user-list li.hide {
+  display: none;
+}

@@ -1,0 +1,207 @@
+body{
+  background: linear-gradient(14deg, rgba(38,56,70,1) 0%, rgba(141,107,124,1) 100%);
+  }
+
+  img{
+    width: 200px;
+    display: block;
+    margin: auto;
+    }
+
+  ul{
+    list-style-type: none;
+    padding: 0;
+    }
+
+h1{
+  color: beige;
+}
+
+  h2{
+  font-family:"BigNoodleTitling";
+  text-shadow: 1px 2px 2px #d48ecb;
+  }
+
+  h3{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  h4{
+    color: #f8ccf2;
+  }
+
+  u{
+    color: #ce7fc3;
+  }
+
+  li, 
+  i,
+  a,
+  h5,
+  p{
+    font-family:"Calibri";
+    font-size: 24px;
+    color:black;
+  }
+
+  a:hover{
+    color:#f123d4;
+  }
+
+  .contenedor{
+    width: 600px;
+    height:400px;
+    overflow: hidden;
+    position: relative;
+    margin: 80px auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 12px #f123d4;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .contenedor:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 37px #f123d4;
+    cursor: pointer;
+  }
+
+  .contenedor img{
+    width:100%;
+    height: 100%;
+  }
+
+  .contenedor p{
+    font-size: 2.6rem;
+    color: #5b0580;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8);
+  }
+
+  .progress-bar {
+    background-color: #af189b !important;
+    margin: 1px !important;
+    letter-spacing: 2px !important;
+    float: start !important; 
+  }
+
+
+
+  .box-input {
+    border-bottom: 2px solid #d14ab4;
+    position: relative;
+    margin: 30px 0;
+  }
+  
+  .formulario h4 {
+    font-size: 30px;
+  }
+  
+  .box-input input {
+    font-size: 20px;
+    color: rgb(155, 79, 122);
+    border: none;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding: 0 5px;
+    height: 40px;
+  }
+  
+  .box-input select {
+    font-size: 16px;
+    color: rgb(155, 79, 122);
+    border: none;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding: 0 5px;
+    height: 40px;
+  }
+  
+  .box-input textarea {
+    font-size: 16px;
+    color: rgb(155, 79, 122);
+    border: none;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding: 0 5px;
+    height: 40px;
+    max-height: 300px;
+    min-height: 150px;
+  }
+  
+  .box-input span::before {
+    content: attr(data-placeholder);
+    position: absolute;
+    top: 0;
+    left: 5px;
+    color: rgb(102, 70, 88);
+    transform: translateY(-100%);
+    z-index: -1;
+    transition: 0.5s;
+  }
+  
+  .box-input span::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(120deg, #3498db, #8e44ad);
+    transition: 0.5s;
+  }
+  
+  .boton {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: #3da772;
+    border: solid 2px #48bb78;
+    color: #fff;
+  
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .boton:hover {
+    background-color: #3da772;
+    border: solid 2px #2f855a;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .email {
+    font-size: 25px;
+  }
+  
+  .color-a {
+    color: #b35894;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  
+  .whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 50px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff !important;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: 2px 2px 3px #000;
+    z-index: 100;
+  }
+  
+  .float:hover {
+    color: rgb(255, 254, 254) !important;
+  }

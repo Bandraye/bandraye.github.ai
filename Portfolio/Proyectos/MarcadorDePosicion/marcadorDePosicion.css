@@ -1,0 +1,36 @@
+body {
+  background: linear-gradient(173deg, rgba(184,46,222,1) 0%, rgba(61,134,215,1) 50%, rgba(195,41,171,1) 100%);
+}
+
+.h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:beige;
+  margin: 20px;
+}
+
+#users {
+  list-style-type: none;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#blog {
+  list-style-type: none;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#comments {
+  list-style-type: none;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  width: 100%;
+}

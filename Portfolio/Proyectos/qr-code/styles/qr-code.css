@@ -1,0 +1,91 @@
+html {
+  font-size: 65.2%; /* 1REM = 10px*/
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.5rem;
+}
+
+/* Globals*/
+
+:root {
+  --main-bg-color: rgb(27, 87, 155);
+  --card-bg-color: rgba(91, 223, 179, 0.459);
+  --card-title-color: hsl(217, 61%, 17%);
+  --card-desc-color: hsl(220, 15%, 55%);
+}
+
+img {
+  display: block;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+/* Utilities */
+
+.container {
+  max-width: 144rem;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: var(--main-bg-color);
+}
+
+/* Card */
+
+.card-qr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.6rem;
+  max-width: 30rem;
+  background-color: var(--card-bg-color);
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.card-qr__header {
+  overflow: hidden;
+}
+
+.card-qr__text {
+  width: 97%;
+  padding-bottom: 0.5rem;
+}
+
+.card-qr__title {
+  color: var(--card-title-color);
+  font-weight: 700;
+}
+
+.card-qr__paragraph {
+  color: var(--card-desc-color);
+  font-weight: 400;
+}
+
+.url {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+#submit {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
